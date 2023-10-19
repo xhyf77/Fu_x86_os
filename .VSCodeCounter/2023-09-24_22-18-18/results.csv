@@ -1,0 +1,77 @@
+"filename", "language", "Batch", "C", "C++", "Shell Script", "Makefile", "CMake", "LinkerScript", "JSON", "TypeScript", "CMake Cache", "Log", "comment", "blank", "total"
+"d:\OS\diy-x86os-master\start\start\build\.cmake\api\v1\query\client-vscode\query.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"d:\OS\diy-x86os-master\start\start\build\.cmake\api\v1\reply\cache-v2-1008921f43837508ce96.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 1407, 0, 0, 0, 0, 1, 1408
+"d:\OS\diy-x86os-master\start\start\build\.cmake\api\v1\reply\cmakeFiles-v1-b7b7bb0a897f5d2e28a9.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 518, 0, 0, 0, 0, 1, 519
+"d:\OS\diy-x86os-master\start\start\build\.cmake\api\v1\reply\codemodel-v2-19cc9bcddf192e20e9ec.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 159, 0, 0, 0, 0, 1, 160
+"d:\OS\diy-x86os-master\start\start\build\.cmake\api\v1\reply\directory-.-Debug-d0094a50bb2071803777.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 1, 15
+"d:\OS\diy-x86os-master\start\start\build\.cmake\api\v1\reply\directory-source.boot-Debug-e32ed8e172d18c41a714.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 1, 15
+"d:\OS\diy-x86os-master\start\start\build\.cmake\api\v1\reply\directory-source.kernel-Debug-4384d93899d7b295e598.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 1, 15
+"d:\OS\diy-x86os-master\start\start\build\.cmake\api\v1\reply\directory-source.loader-Debug-c085dfc97c955badf5e0.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 1, 15
+"d:\OS\diy-x86os-master\start\start\build\.cmake\api\v1\reply\index-2023-09-24T13-29-25-0424.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 132, 0, 0, 0, 0, 1, 133
+"d:\OS\diy-x86os-master\start\start\build\.cmake\api\v1\reply\target-boot-Debug-5ea8ed6e8a6ae6a7a7fc.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 169, 0, 0, 0, 0, 1, 170
+"d:\OS\diy-x86os-master\start\start\build\.cmake\api\v1\reply\target-kernel-Debug-cbb3c3e1512e4bf7078b.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 259, 0, 0, 0, 0, 1, 260
+"d:\OS\diy-x86os-master\start\start\build\.cmake\api\v1\reply\target-loader-Debug-5ab35eea75faa00ae433.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 177, 0, 0, 0, 0, 1, 178
+"d:\OS\diy-x86os-master\start\start\build\.cmake\api\v1\reply\toolchains-v1-6d77e51ed99702ad4e51.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 61, 0, 0, 0, 0, 1, 62
+"d:\OS\diy-x86os-master\start\start\build\CMakeCache.txt", "CMake Cache", 0, 0, 0, 0, 0, 0, 0, 0, 0, 345, 0, 0, 82, 427
+"d:\OS\diy-x86os-master\start\start\build\CMakeFiles\3.23.1\CMakeASMCompiler.cmake", "CMake", 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 7, 21
+"d:\OS\diy-x86os-master\start\start\build\CMakeFiles\3.23.1\CMakeCCompiler.cmake", "CMake", 0, 0, 0, 0, 0, 55, 0, 0, 0, 0, 0, 0, 18, 73
+"d:\OS\diy-x86os-master\start\start\build\CMakeFiles\3.23.1\CMakeRCCompiler.cmake", "CMake", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 1, 7
+"d:\OS\diy-x86os-master\start\start\build\CMakeFiles\3.23.1\CMakeSystem.cmake", "CMake", 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 6, 16
+"d:\OS\diy-x86os-master\start\start\build\CMakeFiles\3.23.1\CompilerIdC\CMakeCCompilerId.c", "C", 0, 633, 0, 0, 0, 0, 0, 0, 0, 0, 0, 61, 135, 829
+"d:\OS\diy-x86os-master\start\start\build\CMakeFiles\CMakeDirectoryInformation.cmake", "CMake", 0, 0, 0, 0, 0, 12, 0, 0, 0, 0, 0, 0, 5, 17
+"d:\OS\diy-x86os-master\start\start\build\CMakeFiles\CMakeError.log", "Log", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 0, 60, 120
+"d:\OS\diy-x86os-master\start\start\build\CMakeFiles\CMakeOutput.log", "Log", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26, 0, 21, 47
+"d:\OS\diy-x86os-master\start\start\build\CMakeFiles\Makefile.cmake", "CMake", 0, 0, 0, 0, 0, 121, 0, 0, 0, 0, 0, 0, 6, 127
+"d:\OS\diy-x86os-master\start\start\build\Makefile", "Makefile", 0, 0, 0, 0, 83, 0, 0, 0, 0, 0, 0, 53, 47, 183
+"d:\OS\diy-x86os-master\start\start\build\cmake_install.cmake", "CMake", 0, 0, 0, 0, 0, 48, 0, 0, 0, 0, 0, 0, 10, 58
+"d:\OS\diy-x86os-master\start\start\build\compile_commands.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 0, 67
+"d:\OS\diy-x86os-master\start\start\build\source\boot\CMakeFiles\CMakeDirectoryInformation.cmake", "CMake", 0, 0, 0, 0, 0, 12, 0, 0, 0, 0, 0, 0, 5, 17
+"d:\OS\diy-x86os-master\start\start\build\source\boot\CMakeFiles\boot.dir\DependInfo.cmake", "CMake", 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 7, 32
+"d:\OS\diy-x86os-master\start\start\build\source\boot\CMakeFiles\boot.dir\cmake_clean.cmake", "CMake", 0, 0, 0, 0, 0, 13, 0, 0, 0, 0, 0, 0, 2, 15
+"d:\OS\diy-x86os-master\start\start\build\source\boot\CMakeFiles\boot.dir\compiler_depend.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 3
+"d:\OS\diy-x86os-master\start\start\build\source\boot\Makefile", "Makefile", 0, 0, 0, 0, 95, 0, 0, 0, 0, 0, 0, 48, 49, 192
+"d:\OS\diy-x86os-master\start\start\build\source\boot\cmake_install.cmake", "CMake", 0, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 7, 40
+"d:\OS\diy-x86os-master\start\start\build\source\kernel\CMakeFiles\CMakeDirectoryInformation.cmake", "CMake", 0, 0, 0, 0, 0, 12, 0, 0, 0, 0, 0, 0, 5, 17
+"d:\OS\diy-x86os-master\start\start\build\source\kernel\CMakeFiles\kernel.dir\DependInfo.cmake", "CMake", 0, 0, 0, 0, 0, 31, 0, 0, 0, 0, 0, 0, 7, 38
+"d:\OS\diy-x86os-master\start\start\build\source\kernel\CMakeFiles\kernel.dir\cmake_clean.cmake", "CMake", 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 2, 27
+"d:\OS\diy-x86os-master\start\start\build\source\kernel\CMakeFiles\kernel.dir\compiler_depend.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 3
+"d:\OS\diy-x86os-master\start\start\build\source\kernel\Makefile", "Makefile", 0, 0, 0, 0, 203, 0, 0, 0, 0, 0, 0, 66, 85, 354
+"d:\OS\diy-x86os-master\start\start\build\source\kernel\cmake_install.cmake", "CMake", 0, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 7, 40
+"d:\OS\diy-x86os-master\start\start\build\source\loader\CMakeFiles\CMakeDirectoryInformation.cmake", "CMake", 0, 0, 0, 0, 0, 12, 0, 0, 0, 0, 0, 0, 5, 17
+"d:\OS\diy-x86os-master\start\start\build\source\loader\CMakeFiles\loader.dir\DependInfo.cmake", "CMake", 0, 0, 0, 0, 0, 26, 0, 0, 0, 0, 0, 0, 7, 33
+"d:\OS\diy-x86os-master\start\start\build\source\loader\CMakeFiles\loader.dir\cmake_clean.cmake", "CMake", 0, 0, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 2, 17
+"d:\OS\diy-x86os-master\start\start\build\source\loader\CMakeFiles\loader.dir\compiler_depend.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 3
+"d:\OS\diy-x86os-master\start\start\build\source\loader\Makefile", "Makefile", 0, 0, 0, 0, 113, 0, 0, 0, 0, 0, 0, 51, 55, 219
+"d:\OS\diy-x86os-master\start\start\build\source\loader\cmake_install.cmake", "CMake", 0, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 7, 40
+"d:\OS\diy-x86os-master\start\start\script\img-write-linux.sh", "Shell Script", 0, 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 18, 10, 44
+"d:\OS\diy-x86os-master\start\start\script\img-write-osx.sh", "Shell Script", 0, 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 17, 11, 44
+"d:\OS\diy-x86os-master\start\start\script\img-write-win.bat", "Batch", 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 10, 49
+"d:\OS\diy-x86os-master\start\start\script\qemu-debug-linux.sh", "Shell Script", 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 3
+"d:\OS\diy-x86os-master\start\start\script\qemu-debug-osx.sh", "Shell Script", 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 3
+"d:\OS\diy-x86os-master\start\start\script\qemu-debug-win.bat", "Batch", 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 3
+"d:\OS\diy-x86os-master\start\start\source\boot\boot.c", "C", 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 5, 15
+"d:\OS\diy-x86os-master\start\start\source\boot\boot.h", "C++", 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 6
+"d:\OS\diy-x86os-master\start\start\source\comm\boot_info.h", "C++", 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 18
+"d:\OS\diy-x86os-master\start\start\source\comm\cpu_instr.h", "C", 0, 63, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 80
+"d:\OS\diy-x86os-master\start\start\source\comm\elf.h", "C++", 0, 0, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 42
+"d:\OS\diy-x86os-master\start\start\source\comm\types.h", "C", 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 8
+"d:\OS\diy-x86os-master\start\start\source\kernel\core\task.c", "C", 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 6, 48
+"d:\OS\diy-x86os-master\start\start\source\kernel\cpu\cpu.c", "C", 0, 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 56
+"d:\OS\diy-x86os-master\start\start\source\kernel\dev\time.c", "C", 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 25
+"d:\OS\diy-x86os-master\start\start\source\kernel\include\core\task.h", "C", 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 17
+"d:\OS\diy-x86os-master\start\start\source\kernel\include\cpu\cpu.h", "C", 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 14, 65
+"d:\OS\diy-x86os-master\start\start\source\kernel\include\cpu\irq.c", "C", 0, 176, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 18, 196
+"d:\OS\diy-x86os-master\start\start\source\kernel\include\cpu\irq.h", "C", 0, 77, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 90
+"d:\OS\diy-x86os-master\start\start\source\kernel\include\dev\time.h", "C", 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 15
+"d:\OS\diy-x86os-master\start\start\source\kernel\include\os_cfg.h", "C", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 13
+"d:\OS\diy-x86os-master\start\start\source\kernel\include\tools\klib.h", "C", 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 25
+"d:\OS\diy-x86os-master\start\start\source\kernel\include\tools\log.h", "C", 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 7
+"d:\OS\diy-x86os-master\start\start\source\kernel\init\init.c", "C", 0, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 7, 51
+"d:\OS\diy-x86os-master\start\start\source\kernel\init\init.h", "C++", 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5
+"d:\OS\diy-x86os-master\start\start\source\kernel\kernel.lds", "LinkerScript", 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 0, 0, 4, 19
+"d:\OS\diy-x86os-master\start\start\source\kernel\tools\klib.c", "C", 0, 174, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 188
+"d:\OS\diy-x86os-master\start\start\source\kernel\tools\log.c", "C", 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 33
+"d:\OS\diy-x86os-master\start\start\source\loader\loader.h", "C++", 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 22
+"d:\OS\diy-x86os-master\start\start\source\loader\loader_16.c", "C", 0, 63, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 11, 76
+"d:\OS\diy-x86os-master\start\start\source\loader\loader_32.c", "C", 0, 58, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 14, 73
+"Total", "-", 15, 1546, 75, 34, 494, 536, 15, 3006, 6, 345, 86, 356, 875, 7389

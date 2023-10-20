@@ -2,7 +2,10 @@
 #define SYSCALL_H
 #include"comm/types.h"
 #define SYSCALL_PARAM_COUNT     5
+
 #define SYS_sleep   0
+#define SYS_getpid  1
+#define SYS_printmsg    100
 typedef struct _syscall_frame_t{
     int eflags;
     int gs , fs , es , ds;

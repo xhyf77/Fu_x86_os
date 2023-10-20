@@ -78,6 +78,7 @@ int task_init( task_t * task , const char * name , int flag ,  uint32_t entry , 
     list_node_init( &task -> wait_node );
     //插入就绪队列以及任务队列 
     irq_state_t state = irq_enter_protection();
+    task->pid = (uint32_t)task;
     task_set_ready( task );
     list_insert_last( &task_manager.task_list , &task->all_node  );
     irq_leave_protection( state );
@@ -116,7 +117,6 @@ task_t * task_first_task( void ){
 }
 
 static void idle_task_entry( void ){
-    int x = 1 / 0 ;
     for( ; ; ){
         hlt();
     }
@@ -233,4 +233,9 @@ void sys_sleep( uint32_t ms ){
     task_set_sleep(task_manager.curr_task , ( ms + OS_TICKS_MS - 1 ) / OS_TICKS_MS );
     task_dispatch();
     irq_leave_protection( state );
+}
+
+uint32_t sys_getpid( void ){
+    task_t * task = task_current();
+    return task->pid;
 }

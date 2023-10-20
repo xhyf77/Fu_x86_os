@@ -3,8 +3,11 @@
 #include"core/memory.h"
 #include"applib/lib_syscall.h"
 int first_task_main( void ){
+    int pid = getpid();
+    int value = 20;
+
     for( ; ; ){
-//        log_printf("first task");
+        print_msg("task id = %d" , pid );
         msleep(1000);
     }
 

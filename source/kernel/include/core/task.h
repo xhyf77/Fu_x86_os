@@ -19,6 +19,7 @@ typedef struct _task_t{
         TASK_WATING ,
     }state;
 
+    int pid;
     int sleep_ticks;
     int time_ticks;
     int slice_ticks;
@@ -61,5 +62,5 @@ void task_set_sleep( task_t * task , uint32_t ticks );
 void task_set_wakeup( task_t * task );  
 task_t * task_current( void );
 void sys_sleep( uint32_t ms );
-
+uint32_t sys_getpid( void );
 #endif

@@ -1,67 +1,68 @@
 Detecting C compiler ABI info failed to compile with the following output:
-Change Dir: D:/OS/diy-x86os-master/start/start/build/CMakeFiles/CMakeTmp
+Change Dir: E:/diy-x86os/start/test/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/x86_64-elf-tools-windows/bin/make.exe -f Makefile cmTC_615e9/fast && C:/x86_64-elf-tools-windows/bin/make.exe  -f CMakeFiles/cmTC_615e9.dir/build.make CMakeFiles/cmTC_615e9.dir/build
-make[1]: Entering directory 'D:/OS/diy-x86os-master/start/start/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_615e9.dir/CMakeCCompilerABI.c.obj
-C:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables    -v -o CMakeFiles/cmTC_615e9.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CMakeCCompilerABI.c"
+Run Build Command(s):D:/Gnu-for-windows/mingw64/bin/mingw32-make.exe -f Makefile cmTC_18be9/fast && D:/Gnu-for-windows/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_18be9.dir\build.make CMakeFiles/cmTC_18be9.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/diy-x86os/start/test/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18be9.dir/CMakeCCompilerABI.c.obj
+D:\Gnu-for-windows\x86_64-elf-tools-windows\bin\x86_64-elf-gcc.exe   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables    -v -o CMakeFiles\cmTC_18be9.dir\CMakeCCompilerABI.c.obj -c D:\Gnu-for-windows\cmake-3.20.2-windows-x86_64\share\cmake-3.20\Modules\CMakeCCompilerABI.c
 Using built-in specs.
-COLLECT_GCC=C:\x86_64-elf-tools-windows\bin\x86_64-elf-gcc.exe
+COLLECT_GCC=D:\Gnu-for-windows\x86_64-elf-tools-windows\bin\x86_64-elf-gcc.exe
 Target: x86_64-elf
 Configured with: ../gcc-7.1.0/configure --host=i686-w64-mingw32.static --target=x86_64-elf --disable-nls --enable-languages=c,c++ --without-headers --prefix=/root/build-x86_64-elf/windows/output
 Thread model: single
 gcc version 7.1.0 (GCC) 
-COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_615e9.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
- c:/x86_64-elf-tools-windows/bin/../libexec/gcc/x86_64-elf/7.1.0/cc1.exe -quiet -v -iprefix c:\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/ C:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -m32 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_615e9.dir/CMakeCCompilerABI.c.obj -g -O0 -version -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -o C:\Users\xhy\AppData\Local\Temp\ccITUWYT.s
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles\cmTC_18be9.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ d:/gnu-for-windows/x86_64-elf-tools-windows/bin/../libexec/gcc/x86_64-elf/7.1.0/cc1.exe -quiet -v -iprefix d:\gnu-for-windows\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/ D:\Gnu-for-windows\cmake-3.20.2-windows-x86_64\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -m32 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_18be9.dir\CMakeCCompilerABI.c.obj -g -O0 -version -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -o C:\Users\POWERS~1\AppData\Local\Temp\ccdPA8Ie.s
 GNU C11 (GCC) version 7.1.0 (x86_64-elf)
 	compiled by GNU C version 5.5.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring nonexistent directory "c:\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/sys-include"
-ignoring nonexistent directory "c:\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/include"
-ignoring duplicate directory "c:/x86_64-elf-tools-windows/lib/gcc/../../lib/gcc/x86_64-elf/7.1.0/include"
-ignoring duplicate directory "c:/x86_64-elf-tools-windows/lib/gcc/../../lib/gcc/x86_64-elf/7.1.0/include-fixed"
-ignoring nonexistent directory "c:/x86_64-elf-tools-windows/lib/gcc/../../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/sys-include"
-ignoring nonexistent directory "c:/x86_64-elf-tools-windows/lib/gcc/../../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/include"
+ignoring nonexistent directory "d:\gnu-for-windows\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/sys-include"
+ignoring nonexistent directory "d:\gnu-for-windows\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/include"
+ignoring duplicate directory "d:/gnu-for-windows/x86_64-elf-tools-windows/lib/gcc/../../lib/gcc/x86_64-elf/7.1.0/include"
+ignoring duplicate directory "d:/gnu-for-windows/x86_64-elf-tools-windows/lib/gcc/../../lib/gcc/x86_64-elf/7.1.0/include-fixed"
+ignoring nonexistent directory "d:/gnu-for-windows/x86_64-elf-tools-windows/lib/gcc/../../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/sys-include"
+ignoring nonexistent directory "d:/gnu-for-windows/x86_64-elf-tools-windows/lib/gcc/../../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/include"
 #include "..." search starts here:
 #include <...> search starts here:
- c:\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/include
- c:\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/include-fixed
+ d:\gnu-for-windows\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/include
+ d:\gnu-for-windows\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/include-fixed
 End of search list.
 GNU C11 (GCC) version 7.1.0 (x86_64-elf)
 	compiled by GNU C version 5.5.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: b00064cd55ffce4efe95d0fcd6948296
-COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_615e9.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
- c:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/bin/as.exe --32 -o CMakeFiles/cmTC_615e9.dir/CMakeCCompilerABI.c.obj C:\Users\xhy\AppData\Local\Temp\ccITUWYT.s
-COMPILER_PATH=c:/x86_64-elf-tools-windows/bin/../libexec/gcc/x86_64-elf/7.1.0/;c:/x86_64-elf-tools-windows/bin/../libexec/gcc/;c:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/bin/
-LIBRARY_PATH=c:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/;c:/x86_64-elf-tools-windows/bin/../lib/gcc/;c:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/lib/
-COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_615e9.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
-Linking C executable cmTC_615e9.exe
-"C:/Program Files (x86)/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_615e9.dir/objects.a
-C:/x86_64-elf-tools-windows/bin/x86_64-elf-ar.exe qc CMakeFiles/cmTC_615e9.dir/objects.a @CMakeFiles/cmTC_615e9.dir/objects1.rsp
-C:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables   -v -Wl,--whole-archive CMakeFiles/cmTC_615e9.dir/objects.a -Wl,--no-whole-archive -o cmTC_615e9.exe -Wl,--out-implib,libcmTC_615e9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles\cmTC_18be9.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ d:/gnu-for-windows/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/bin/as.exe --32 -o CMakeFiles\cmTC_18be9.dir\CMakeCCompilerABI.c.obj C:\Users\POWERS~1\AppData\Local\Temp\ccdPA8Ie.s
+COMPILER_PATH=d:/gnu-for-windows/x86_64-elf-tools-windows/bin/../libexec/gcc/x86_64-elf/7.1.0/;d:/gnu-for-windows/x86_64-elf-tools-windows/bin/../libexec/gcc/;d:/gnu-for-windows/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/bin/
+LIBRARY_PATH=d:/gnu-for-windows/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/;d:/gnu-for-windows/x86_64-elf-tools-windows/bin/../lib/gcc/;d:/gnu-for-windows/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/lib/
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles\cmTC_18be9.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_18be9.exe
+D:\Gnu-for-windows\cmake-3.20.2-windows-x86_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_18be9.dir\link.txt --verbose=1
+D:\Gnu-for-windows\cmake-3.20.2-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_18be9.dir/objects.a
+D:\Gnu-for-windows\x86_64-elf-tools-windows\bin\x86_64-elf-ar.exe cr CMakeFiles\cmTC_18be9.dir/objects.a @CMakeFiles\cmTC_18be9.dir\objects1.rsp
+D:\Gnu-for-windows\x86_64-elf-tools-windows\bin\x86_64-elf-gcc.exe -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables   -v -Wl,--whole-archive CMakeFiles\cmTC_18be9.dir/objects.a -Wl,--no-whole-archive -o cmTC_18be9.exe -Wl,--out-implib,libcmTC_18be9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
-COLLECT_GCC=C:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe
+COLLECT_GCC=D:\Gnu-for-windows\x86_64-elf-tools-windows\bin\x86_64-elf-gcc.exe
 Target: x86_64-elf
 Configured with: ../gcc-7.1.0/configure --host=i686-w64-mingw32.static --target=x86_64-elf --disable-nls --enable-languages=c,c++ --without-headers --prefix=/root/build-x86_64-elf/windows/output
 Thread model: single
 gcc version 7.1.0 (GCC) 
-COMPILER_PATH=c:/x86_64-elf-tools-windows/bin/../libexec/gcc/x86_64-elf/7.1.0/;c:/x86_64-elf-tools-windows/bin/../libexec/gcc/;c:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/bin/
-LIBRARY_PATH=c:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/;c:/x86_64-elf-tools-windows/bin/../lib/gcc/;c:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/lib/
-COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'cmTC_615e9.exe' '-mtune=generic' '-march=x86-64'
-x86_64-elf-gcc.exe: warning: CMakeFiles/cmTC_615e9.dir/objects.a: linker input file unused because linking not done
-make[1]: Leaving directory 'D:/OS/diy-x86os-master/start/start/build/CMakeFiles/CMakeTmp'
+COMPILER_PATH=d:/gnu-for-windows/x86_64-elf-tools-windows/bin/../libexec/gcc/x86_64-elf/7.1.0/;d:/gnu-for-windows/x86_64-elf-tools-windows/bin/../libexec/gcc/;d:/gnu-for-windows/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/bin/
+LIBRARY_PATH=d:/gnu-for-windows/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/;d:/gnu-for-windows/x86_64-elf-tools-windows/bin/../lib/gcc/;d:/gnu-for-windows/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/lib/
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'cmTC_18be9.exe' '-mtune=generic' '-march=x86-64'
+x86_64-elf-gcc.exe: warning: CMakeFiles\cmTC_18be9.dir/objects.a: linker input file unused because linking not done
+mingw32-make.exe[1]: Leaving directory 'E:/diy-x86os/start/test/build/CMakeFiles/CMakeTmp'
 
 
 Cannot copy output executable
   ''
 to destination specified by COPY_FILE:
-  'D:/OS/diy-x86os-master/start/start/build/CMakeFiles/3.23.1/CMakeDetermineCompilerABI_C.bin'
+  'E:/diy-x86os/start/test/build/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin'
 Unable to find the executable at any of:
-  D:/OS/diy-x86os-master/start/start/build/CMakeFiles/CMakeTmp/cmTC_615e9.exe
-  D:/OS/diy-x86os-master/start/start/build/CMakeFiles/CMakeTmp/Debug/cmTC_615e9.exe
-  D:/OS/diy-x86os-master/start/start/build/CMakeFiles/CMakeTmp/Development/cmTC_615e9.exe
+  E:/diy-x86os/start/test/build/CMakeFiles/CMakeTmp/cmTC_18be9.exe
+  E:/diy-x86os/start/test/build/CMakeFiles/CMakeTmp/Debug/cmTC_18be9.exe
+  E:/diy-x86os/start/test/build/CMakeFiles/CMakeTmp/Development/cmTC_18be9.exe
 
 

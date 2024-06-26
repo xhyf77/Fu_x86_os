@@ -1,0 +1,1 @@
+x86_64-elf-ld @CMakeFiles\kernel.dir\objects1.rsp -m elf_i386 -T E:/diy-x86os/start/test/source/kernel/kernel.lds -L E:/diy-x86os/start/test/build/source/applib/ -o E:/diy-x86os/start/test/build/source/kernel/kernel.elf

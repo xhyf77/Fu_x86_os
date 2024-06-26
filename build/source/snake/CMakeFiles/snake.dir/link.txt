@@ -1,0 +1,1 @@
+x86_64-elf-ld @CMakeFiles\snake.dir\objects1.rsp -m elf_i386 -T E:/diy-x86os/start/test/source/snake/link.lds -L E:/diy-x86os/start/test/build/../../newlib/i686-elf/lib -lm -lc -o E:/diy-x86os/start/test/build/source/snake/snake.elf

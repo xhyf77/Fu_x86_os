@@ -1,9 +1,12 @@
 source/kernel/CMakeFiles/kernel.dir/cpu/irq.c.obj: \
- D:/OS/diy-x86os-master/start/start/source/kernel/cpu/irq.c \
- D:/OS/diy-x86os-master/start/start/source/comm/cpu_instr.h \
- D:/OS/diy-x86os-master/start/start/source/comm/types.h \
- D:/OS/diy-x86os-master/start/start/source/kernel/include/cpu/irq.h \
- D:/OS/diy-x86os-master/start/start/source/comm/types.h \
- D:/OS/diy-x86os-master/start/start/source/kernel/include/cpu/cpu.h \
- D:/OS/diy-x86os-master/start/start/source/kernel/include/os_cfg.h \
- D:/OS/diy-x86os-master/start/start/source/kernel/include/tools/log.h
+ E:\diy-x86os\start\test\source\kernel\cpu\irq.c \
+ E:/diy-x86os/start/test/source/kernel/include/cpu/irq.h \
+ E:/diy-x86os/start/test/source/comm/types.h \
+ E:/diy-x86os/start/test/source/kernel/include/cpu/cpu.h \
+ E:/diy-x86os/start/test/source/comm/cpu_instr.h \
+ E:/diy-x86os/start/test/source/comm/types.h \
+ E:/diy-x86os/start/test/source/kernel/include/tools/log.h \
+ E:/diy-x86os/start/test/source/kernel/include/os_cfg.h \
+ E:/diy-x86os/start/test/source/kernel/include/core/task.h \
+ E:/diy-x86os/start/test/source/kernel/include/tools/list.h \
+ E:/diy-x86os/start/test/source/kernel/include/fs/file.h

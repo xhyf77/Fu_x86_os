@@ -1,4 +1,4 @@
-# Install script for directory: D:/OS/diy-x86os-master/start/start
+# Install script for directory: E:/diy-x86os/start/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -34,14 +34,19 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/x86_64-elf-tools-windows/bin/x86_64-elf-objdump.exe")
+  set(CMAKE_OBJDUMP "D:/Gnu-for-windows/x86_64-elf-tools-windows/bin/x86_64-elf-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/OS/diy-x86os-master/start/start/build/source/boot/cmake_install.cmake")
-  include("D:/OS/diy-x86os-master/start/start/build/source/loader/cmake_install.cmake")
-  include("D:/OS/diy-x86os-master/start/start/build/source/kernel/cmake_install.cmake")
+  include("E:/diy-x86os/start/test/build/source/boot/cmake_install.cmake")
+  include("E:/diy-x86os/start/test/build/source/loader/cmake_install.cmake")
+  include("E:/diy-x86os/start/test/build/source/kernel/cmake_install.cmake")
+  include("E:/diy-x86os/start/test/build/source/applib/cmake_install.cmake")
+  include("E:/diy-x86os/start/test/build/source/shell/cmake_install.cmake")
+  include("E:/diy-x86os/start/test/build/source/init/cmake_install.cmake")
+  include("E:/diy-x86os/start/test/build/source/loop/cmake_install.cmake")
+  include("E:/diy-x86os/start/test/build/source/snake/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +58,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/OS/diy-x86os-master/start/start/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/diy-x86os/start/test/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

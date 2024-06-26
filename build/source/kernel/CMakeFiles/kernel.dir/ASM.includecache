@@ -8,7 +8,9 @@
 
 ../source/kernel/include/os_cfg.h
 
-D:/OS/diy-x86os-master/start/start/source/kernel/init/start.S
+E:/diy-x86os/start/test/source/kernel/init/first_task_entry.S
+
+E:/diy-x86os/start/test/source/kernel/init/start.S
 os_cfg.h
-D:/OS/diy-x86os-master/start/start/source/kernel/init/os_cfg.h
+E:/diy-x86os/start/test/source/kernel/init/os_cfg.h
 

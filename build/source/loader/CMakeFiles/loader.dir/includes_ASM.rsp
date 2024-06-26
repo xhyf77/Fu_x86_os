@@ -1,1 +1,1 @@
--I"D:/OS/diy-x86os-master/start/start/source" -I"D:/OS/diy-x86os-master/start/start/source/kernel/include"
+-IE:/diy-x86os/start/test/source -IE:/diy-x86os/start/test/source/kernel/include -IE:/diy-x86os/start/test/../newlib/i686-elf/include

@@ -1,0 +1,1 @@
+-IE:/diy-x86os/start/test/source -IE:/diy-x86os/start/test/source/kernel/include -IE:/diy-x86os/start/test/../newlib/i686-elf/include -IE:/diy-x86os/start/test/source/init/../applib

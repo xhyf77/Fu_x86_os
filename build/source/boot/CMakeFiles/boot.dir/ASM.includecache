@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/OS/diy-x86os-master/start/start/source/boot/boot.h
+E:/diy-x86os/start/test/source/boot/boot.h
 
-D:/OS/diy-x86os-master/start/start/source/boot/start.S
+E:/diy-x86os/start/test/source/boot/start.S
 boot.h
-D:/OS/diy-x86os-master/start/start/source/boot/boot.h
+E:/diy-x86os/start/test/source/boot/boot.h
 

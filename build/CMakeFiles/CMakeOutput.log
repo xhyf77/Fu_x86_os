@@ -1,6 +1,6 @@
-The system is: Windows - 10.0.22621 - AMD64
+The system is: Windows - 10.0.22631 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: C:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe 
+Compiler: D:/Gnu-for-windows/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe 
 Build flags: -g;-c;-O0;-m32;-fno-pie;-fno-stack-protector;-fno-asynchronous-unwind-tables
 Id flags:  
 
@@ -10,21 +10,22 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
 
-The C compiler identification is GNU, found in "D:/OS/diy-x86os-master/start/start/build/CMakeFiles/3.23.1/CompilerIdC/CMakeCCompilerId.o"
+The C compiler identification is GNU, found in "E:/diy-x86os/start/test/build/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.o"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: D:/OS/diy-x86os-master/start/start/build/CMakeFiles/CMakeTmp
+Change Dir: E:/diy-x86os/start/test/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/x86_64-elf-tools-windows/bin/make.exe -f Makefile cmTC_21e2a/fast && C:/x86_64-elf-tools-windows/bin/make.exe  -f CMakeFiles/cmTC_21e2a.dir/build.make CMakeFiles/cmTC_21e2a.dir/build
-make[1]: Entering directory 'D:/OS/diy-x86os-master/start/start/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_21e2a.dir/testCCompiler.c.obj
-C:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -o CMakeFiles/cmTC_21e2a.dir/testCCompiler.c.obj -c D:/OS/diy-x86os-master/start/start/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_21e2a.exe
-"C:/Program Files (x86)/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_21e2a.dir/objects.a
-C:/x86_64-elf-tools-windows/bin/x86_64-elf-ar.exe qc CMakeFiles/cmTC_21e2a.dir/objects.a @CMakeFiles/cmTC_21e2a.dir/objects1.rsp
-C:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -Wl,--whole-archive CMakeFiles/cmTC_21e2a.dir/objects.a -Wl,--no-whole-archive -o cmTC_21e2a.exe -Wl,--out-implib,libcmTC_21e2a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_21e2a.dir/linklibs.rsp
-x86_64-elf-gcc.exe: warning: CMakeFiles/cmTC_21e2a.dir/objects.a: linker input file unused because linking not done
-make[1]: Leaving directory 'D:/OS/diy-x86os-master/start/start/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/Gnu-for-windows/mingw64/bin/mingw32-make.exe -f Makefile cmTC_09faf/fast && D:/Gnu-for-windows/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_09faf.dir\build.make CMakeFiles/cmTC_09faf.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/diy-x86os/start/test/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09faf.dir/testCCompiler.c.obj
+D:\Gnu-for-windows\x86_64-elf-tools-windows\bin\x86_64-elf-gcc.exe   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -o CMakeFiles\cmTC_09faf.dir\testCCompiler.c.obj -c E:\diy-x86os\start\test\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_09faf.exe
+D:\Gnu-for-windows\cmake-3.20.2-windows-x86_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_09faf.dir\link.txt --verbose=1
+D:\Gnu-for-windows\cmake-3.20.2-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_09faf.dir/objects.a
+D:\Gnu-for-windows\x86_64-elf-tools-windows\bin\x86_64-elf-ar.exe cr CMakeFiles\cmTC_09faf.dir/objects.a @CMakeFiles\cmTC_09faf.dir\objects1.rsp
+D:\Gnu-for-windows\x86_64-elf-tools-windows\bin\x86_64-elf-gcc.exe -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -Wl,--whole-archive CMakeFiles\cmTC_09faf.dir/objects.a -Wl,--no-whole-archive -o cmTC_09faf.exe -Wl,--out-implib,libcmTC_09faf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+x86_64-elf-gcc.exe: warning: CMakeFiles\cmTC_09faf.dir/objects.a: linker input file unused because linking not done
+mingw32-make.exe[1]: Leaving directory 'E:/diy-x86os/start/test/build/CMakeFiles/CMakeTmp'
 
 
 

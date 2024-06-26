@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "D:/OS/diy-x86os-master/start/start/source/boot/start.S" "D:/OS/diy-x86os-master/start/start/build/source/boot/CMakeFiles/boot.dir/start.S.obj"
+  "E:/diy-x86os/start/test/source/boot/start.S" "E:/diy-x86os/start/test/build/source/boot/CMakeFiles/boot.dir/start.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -16,11 +16,12 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../source"
   "../source/kernel/include"
+  "../../newlib/i686-elf/include"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/OS/diy-x86os-master/start/start/source/boot/boot.c" "source/boot/CMakeFiles/boot.dir/boot.c.obj" "gcc" "source/boot/CMakeFiles/boot.dir/boot.c.obj.d"
+  "E:/diy-x86os/start/test/source/boot/boot.c" "source/boot/CMakeFiles/boot.dir/boot.c.obj" "gcc" "source/boot/CMakeFiles/boot.dir/boot.c.obj.d"
   )
 
 # Targets to which this target links.

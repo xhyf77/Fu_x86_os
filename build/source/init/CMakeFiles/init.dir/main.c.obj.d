@@ -1,0 +1,31 @@
+source/init/CMakeFiles/init.dir/main.c.obj: \
+ E:\diy-x86os\start\test\source\init\main.c \
+ e:\diy-x86os\start\newlib\i686-elf\include\stdio.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\_ansi.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\newlib.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\_newlib_version.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\sys\config.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\machine\ieeefp.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\sys\features.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\sys\cdefs.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\machine\_default_types.h \
+ d:\gnu-for-windows\x86_64-elf-tools-windows\lib\gcc\x86_64-elf\7.1.0\include\stddef.h \
+ d:\gnu-for-windows\x86_64-elf-tools-windows\lib\gcc\x86_64-elf\7.1.0\include\stdarg.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\sys\reent.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\_ansi.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\sys\_types.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\machine\_types.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\sys\lock.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\sys\types.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\sys\_stdint.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\machine\endian.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\machine\_endian.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\sys\select.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\sys\_sigset.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\sys\_timeval.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\sys\timespec.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\sys\_timespec.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\sys\_pthreadtypes.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\sys\sched.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\machine\types.h \
+ e:\diy-x86os\start\newlib\i686-elf\include\sys\stdio.h

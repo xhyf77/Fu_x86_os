@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "D:/OS/diy-x86os-master/start/start/source/loader/start.S" "D:/OS/diy-x86os-master/start/start/build/source/loader/CMakeFiles/loader.dir/start.S.obj"
+  "E:/diy-x86os/start/test/source/loader/start.S" "E:/diy-x86os/start/test/build/source/loader/CMakeFiles/loader.dir/start.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -16,12 +16,13 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../source"
   "../source/kernel/include"
+  "../../newlib/i686-elf/include"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/OS/diy-x86os-master/start/start/source/loader/loader_16.c" "source/loader/CMakeFiles/loader.dir/loader_16.c.obj" "gcc" "source/loader/CMakeFiles/loader.dir/loader_16.c.obj.d"
-  "D:/OS/diy-x86os-master/start/start/source/loader/loader_32.c" "source/loader/CMakeFiles/loader.dir/loader_32.c.obj" "gcc" "source/loader/CMakeFiles/loader.dir/loader_32.c.obj.d"
+  "E:/diy-x86os/start/test/source/loader/loader_16.c" "source/loader/CMakeFiles/loader.dir/loader_16.c.obj" "gcc" "source/loader/CMakeFiles/loader.dir/loader_16.c.obj.d"
+  "E:/diy-x86os/start/test/source/loader/loader_32.c" "source/loader/CMakeFiles/loader.dir/loader_32.c.obj" "gcc" "source/loader/CMakeFiles/loader.dir/loader_32.c.obj.d"
   )
 
 # Targets to which this target links.

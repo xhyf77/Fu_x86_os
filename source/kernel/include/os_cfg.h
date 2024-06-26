@@ -1,16 +1,23 @@
-#ifndef OS_CFG_H
-#define OS_CFG_H
+/**
+ * os配置
+ */
+#ifndef OS_OS_CFG_H
+#define OS_OS_CFG_H
 
-#define GDT_TABLE_SIZE  256
-#define IDT_TABLE_NR    128
-#define KERNEL_SELECTOR_CS ( 1 * 8 )
-#define KERNEL_SELECTOR_DS ( 2 * 8 )
-#define SELECTOR_SYSCAL     ( 3 * 8 )
-#define KERNEL_STACK_SIZE  ( 8 * 1024 )
+#define GDT_TABLE_SIZE      	256		// GDT表项数量
+#define KERNEL_SELECTOR_CS		(1 * 8)		// 内核代码段描述符
+#define KERNEL_SELECTOR_DS		(2 * 8)		// 内核数据段描述符
+#define KERNEL_STACK_SIZE       (8*1024)    // 内核栈
+#define SELECTOR_SYSCALL     	(3 * 8)	// 调用门的选择子
 
+#define OS_TICK_MS              10       	// 每毫秒的时钟数
 
+#define OS_VERSION              "0.0.1"     // OS版本号
 
-#define OS_TICKS_MS    10
-#define IDLE_TASK_SIZE  1024 
-#define OS_VERSION     "Fu .1.0.0"
-#endif
+#define IDLE_STACK_SIZE       1024        // 空闲任务栈
+
+#define TASK_NR             128            // 进程的数量
+
+#define ROOT_DEV            DEV_DISK, 0xb1  // 根目录所在的设备
+
+#endif //OS_OS_CFG_H

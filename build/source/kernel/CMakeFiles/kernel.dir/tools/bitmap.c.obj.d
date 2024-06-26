@@ -1,6 +1,6 @@
 source/kernel/CMakeFiles/kernel.dir/tools/bitmap.c.obj: \
- D:/OS/diy-x86os-master/start/start/source/kernel/tools/bitmap.c \
- D:/OS/diy-x86os-master/start/start/source/kernel/include/tools/bitmap.h \
- D:/OS/diy-x86os-master/start/start/source/comm/types.h \
- D:/OS/diy-x86os-master/start/start/source/kernel/include/tools/klib.h \
- c:\x86_64-elf-tools-windows\lib\gcc\x86_64-elf\7.1.0\include\stdarg.h
+ E:\diy-x86os\start\test\source\kernel\tools\bitmap.c \
+ E:/diy-x86os/start/test/source/kernel/include/tools/bitmap.h \
+ E:/diy-x86os/start/test/source/comm/types.h \
+ E:/diy-x86os/start/test/source/kernel/include/tools/klib.h \
+ d:\gnu-for-windows\x86_64-elf-tools-windows\lib\gcc\x86_64-elf\7.1.0\include\stdarg.h

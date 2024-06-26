@@ -1,57 +1,58 @@
+/**
+ * 系统调用接口
+ */
 #ifndef LIB_SYSCALL_H
 #define LIB_SYSCALL_H
-#include"comm/types.h"
-#include"core/syscall.h"
-#include"os_cfg.h"
-typedef struct _syscall_args_t{
+
+#include "core/syscall.h"
+#include "os_cfg.h"
+#include "fs/file.h"
+#include "dev/tty.h"
+
+#include <sys/stat.h>
+typedef struct _syscall_args_t {
     int id;
-    uint32_t arg0;
-    uint32_t arg1;
-    uint32_t arg2;
-    uint32_t arg3;
+    int arg0;
+    int arg1;
+    int arg2;
+    int arg3;
 }syscall_args_t;
 
+int msleep (int ms);
+int fork(void);
+int getpid(void);
+int yield (void);
+int execve(const char *name, char * const *argv, char * const *env);
+int print_msg(char * fmt, int arg);
+int wait(int* status);
+void _exit(int status);
 
-static inline int sys_call( syscall_args_t * args ){
-    uint32_t addr[] = { 0 , SELECTOR_SYSCAL | 0 };
-    int ret;
-    __asm__ __volatile__(
-        "push %[arg3]\n\t"
-        "push %[arg2]\n\t"
-        "push %[arg1]\n\t"
-        "push %[arg0]\n\t"
-        "push %[id]\n\t"
-        "lcall *(%[a])":"=a"(ret):
-        [arg3]"r"(args->arg3) , [arg2]"r"(args->arg2) , [arg1]"r"(args->arg1) ,
-        [arg0]"r"(args->arg0) , [id]"r"(args->id) ,
-        [a]"r"(addr));
-}
+int open(const char *name, int flags, ...);
+int read(int file, char *ptr, int len);
+int write(int file, char *ptr, int len);
+int close(int file);
+int lseek(int file, int ptr, int dir);
+int isatty(int file);
+int fstat(int file, struct stat *st);
+void * sbrk(ptrdiff_t incr);
+int dup (int file);
+int ioctl(int fd, int cmd, int arg0, int arg1);
 
-static inline void msleep( int ms ){
-    if( ms <= 0 ){
-        return ;
-    }
-    syscall_args_t args;
-    args.id = SYS_sleep;
-    args.arg0 = ms;
-    sys_call(&args);
-}
+struct dirent {
+   int index;         // 在目录中的偏移
+   int type;            // 文件或目录的类型
+   char name [255];       // 目录或目录的名称
+   int size;            // 文件大小
+};
 
-static inline int getpid ( void ){
-    syscall_args_t args;
-    args.id = SYS_getpid;
-    int result = sys_call(&args);
-    return result;
-}
+typedef struct _DIR {
+    int index;               // 当前遍历的索引
+    struct dirent dirent;
+}DIR;
 
-static inline void print_msg ( const char * fmt , int arg ){
-    syscall_args_t args;
-    args.id = SYS_printmsg;
-    args.arg0 = (uint32_t)fmt;
-    args.arg1 = arg;
-    sys_call(&args);    
-}
+DIR * opendir(const char * name);
+struct dirent* readdir(DIR* dir);
+int closedir(DIR *dir);
+int unlink(const char *pathname);
 
-
-
-#endif
+#endif //LIB_SYSCALL_H
